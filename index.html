@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css>
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/night.min.css>
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/css/zenburn.css>
+<style>
+li {list-style:none;}
+</style>
+</head>
+<body>
+<div class=reveal>
+<div class=slides>
+<!-- START -->
+
+
+
+
+
+
+
+
+
+
+
+<section>
+  <h1>Functions</h1>
+  <h2>Faster to Deploy 🚀</h2>
+</section>
+<section>
+  <h2>#1 Problem w "serverless"</h2>
+  <h1 class=fragment>Nobody cares.</h1>
+</section>
+
+<!-- 
+  
+  don't say I didn't warn ya 
+  
+
+
+
+
+
+
+
+
+
+
+
+  🦆
+
+  this is the part were wherein we demo provisioning and deploying an app
+  globally available, theoretically infinitely scalable, dns, the whole enchilada 
+
+  in like 15-20 mins which is … pretty ok 
+  
+  (literally better than anything else ever in th history of compute. just saying!)
+
+
+  then we recap the key points in slide form to reenforce and catch anything I missed or fucked up
+
+-->
+
+
+<section>
+  <b>Functions</b> are the 🔑 to a pure cloud native serverless architecture
+</section>
+
+<section>
+  Functions are the unit of deployment <h1>not the entire app</h1>
+</section>
+
+<section>
+  🤦‍♀️  You do not want to put an entire app in a single function. Downsides of a monolithic app plus ever increasing coldstart penalty. 
+</section>
+
+<section>
+  <b>Lambda</b> has v nice characteristics
+</section>
+<!-- understatement -->
+
+<section>
+  <h3>Only paying for what you use 💸</h3> (💯% utilization)
+</section>
+
+<section>
+<h3>Better security model 🔐</h3>
+No ports to scan!
+</section>
+
+<section>
+  <h3>Focusing on business value 💰</h3> instead of managing infra
+</section>
+
+<section>
+<h3>FaaS is best in class serverless</h3>
+<ul style=text-align:left>
+<li class=fragment>💰 Fixed costs
+<li class=fragment>🔒 Better security
+<li class=fragment>🎢 Faster iterations
+</ul>
+</section>
+
+<section>
+<h3>Major 🔑</h3> 
+<h1>functions are faster to deploy!</h3>
+</section>
+<!-- with .arc anyhow! -->
+
+<section>
+So why is a bunch of little functions a BFD?
+</section>
+
+<section>
+Deploying a single function usually completes within a couple of seconds.
+</section>
+
+<section>
+Deploy one or deploy all <i>in parallel</i>.
+</section>
+
+<section>
+This is an order of magnitude improvement in most development workflow lead times to staging and/or production environments.
+</section>
+
+<section>
+  <h1>Speed.</h1>
+  <li class=fragment>Authortime is faster
+  <li class=fragment>Runtime smaller due to less deps
+  <li class=fragment>Bug resolution easier
+</section>
+
+<section>
+  <h3>Faster...reading, writing, running and fixing code! 🙇🏽‍♂️</h3>
+  <small>Seems worth exploring.</small>
+</section>
+
+<section>
+  <h3>Let's be excellent to each other.</h3>
+  <small>No more code shaming! There is no singular "right" way.</small>
+</section>
+
+<section>
+  <h1>Backend is Yours 😈 <h1>
+</section>
+
+<!--  🕊  -->
+
+<section>
+  <h3>Get Involved in JSF Architect</h3>
+  <ul style=text-align:left>
+  <li class=fragment>💓 Pull requests are always nice
+  <li class=fragment>🐞 Bug reports are APPRECIATED
+  <li class=fragment>🦋 Feature requests are APPRECIATED
+  <li class=fragment>🎙 Share what you learn on Twitter or blogs
+  </ul>
+</section>
+
+<section>
+  <h3>thx eh!</h3>
+  <small><a href=https://twitter.com/brianleroux>@brianleroux</a></small>
+  <br>
+  <ul style=text-align:left>
+  <li>🌟 Star <a href=https://github.com/arc-repos/architect>github.com/arc-repos/architect</a>
+  <li>✨ Follow the quickstart on <a href=https://arc.codes>arc.codes</a>
+  <li>🎉 Sign up for the <a href=https://begin.com>begin.com</a> beta
+  </ul>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- END -->
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js></script>
+<script>
+Reveal.initialize({
+  history: true,
+  dependencies: [{
+    src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.js',
+    async: true,
+    callback: function() { hljs.initHighlightingOnLoad() }
+  }]
+})
+</script>
+</div>
+</div>
+</body>
+</html>
